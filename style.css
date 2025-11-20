@@ -1,0 +1,62 @@
+.navebar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: brown;
+    text-align: center;
+    border-radius: 100px;
+
+}
+.navebar ul{
+   display: flex;
+ 
+}
+.navebar ul li{
+list-style: none;
+  margin: 29px;
+  padding: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  background-color: coral;
+  border-radius: 16px;
+color: white;
+transition: 1s;
+}
+.navebar ul li:hover{
+    transform: scale(1.2);
+ color: aqua;
+}
+.baniére{ background-image: url("image/WhatsApp Image 2025-11-18 à 09.57.52_18bd8208.jpg");
+    height: 150vh;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.baniére .texte{
+ padding-top: 36px;
+ 
+}
+.baniére .texte h1{
+   text-align: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.baniére .texte p{
+    text-align: center;
+    font-size: 32px;
+}
+.baniére .texte .bouton{
+position: absolute;
+right: 45%;
+padding: 18px;
+border-radius: 12px;
+background-color: brown;
+color: white;
+font-size: 20px;
+cursor: pointer;
+
+}
+.direction img{ 
+ margin-top: 17%;
+ border-radius: 200px;
+ padding: 50px; 
+}
